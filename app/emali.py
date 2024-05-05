@@ -4,7 +4,7 @@ import smtplib
 
 def email(subject, body, emil_receiver):
 
- emil_sender = "youarealoafofbread1@gmail.com"
+ emil_sender = ""
  emil_password = "itrs achj pquo fezj"
   
  
