@@ -4,9 +4,7 @@ import schedule
 import time
 
 email_uesr_email = None
-def verify_email():
-  global email_uesr_email
-  while True:
+while True:
     try:
         uesr_email = input("Enter your email: ")
         uesr,host = uesr_email.split("@")
@@ -18,7 +16,7 @@ def verify_email():
         print(uesr, host)
         email_uesr_email = uesr_email
         break
-verify_email()
+
 
 
 def email_send_you_use():
